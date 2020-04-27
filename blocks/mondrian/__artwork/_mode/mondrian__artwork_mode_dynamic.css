@@ -8,8 +8,9 @@
     grid-area: mondrian-dyn;
 }
 
-@media screen and (man-width: 500px) {
+@media screen and (max-width: 500px) {
     .mondrian__artwork_mode_dynamic {
-        width: 100%;
+        grid-template-columns: repeat(auto-fit, 17px);
+        /* уменьшила размер колонок, чтобы картины были целостными */
     }
 }
