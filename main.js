@@ -7,10 +7,6 @@ let clicked = 'button-pp_status_clicked'
 
 buttonOn.onclick = function() {
    console.log(buttonOff.classList);
-   //  if (buttonOn.classList.contains(notClicked) && buttonOff.classList.contains(notClicked)) {
-   //      image.style.display = 'block';
-   //      buttonOn.classList.replace(notClicked, clicked);
-   //      buttonOn.textContent = 'Вот и оригинал!';
     if (buttonOn.classList.contains(notClicked) && buttonOff.classList.contains(clicked)) {
         image.style.display = 'block';
         buttonOn.classList.replace(notClicked, clicked);

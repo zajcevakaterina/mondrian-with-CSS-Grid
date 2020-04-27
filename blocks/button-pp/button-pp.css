@@ -10,6 +10,12 @@
     width: 150px;
     outline: none;
     height: 110px;
+    cursor: pointer;
+}
+
+.button-pp:hover {
+    box-shadow: 0 0 10px #000;
+    transition: box-shadow 0.3s linear;
 }
 
 .button-pp:first-of-type {
@@ -19,6 +25,6 @@
 @media screen and (max-width: 1366px) {
     .button-pp{
         font-size: 16px;
-        height: 70px;
+        min-height: 70px;
     }
 }
