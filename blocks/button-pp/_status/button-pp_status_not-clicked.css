@@ -1,3 +1,8 @@
 .button-pp_status_not-clicked {
     background: #fff;
 }
+
+.button-pp_status_not-clicked:hover {
+    box-shadow: 0 0 10px #000;
+    transition: box-shadow 0.3s linear;
+}
