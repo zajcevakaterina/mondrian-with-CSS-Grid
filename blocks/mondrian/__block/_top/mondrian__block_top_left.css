@@ -1,0 +1,21 @@
+.mondrian__block_top_left {
+    position: absolute;
+    right: -2vw;
+    top: 0;
+    /* border: 1px solid green; */
+    background: #fff;
+    width: 2vw;
+    height: 1.2vw;
+}
+
+@media screen and (min-width: 1500px) {
+    .mondrian__block_top_left {
+        height: 1vw; 
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .mondrian__block_top_left {
+        height: 0.5vw; 
+    }
+}

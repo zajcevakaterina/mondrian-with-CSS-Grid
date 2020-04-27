@@ -1,0 +1,24 @@
+@import url(./_status/button-pp_status_clicked.css);
+@import url(./_status/button-pp_status_not-clicked.css);
+
+.button-pp {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding: 10px;
+    border: 2px solid #000;
+    width: 150px;
+    outline: none;
+    height: 110px;
+}
+
+.button-pp:first-of-type {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 1366px) {
+    .button-pp{
+        font-size: 16px;
+        height: 70px;
+    }
+}

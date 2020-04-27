@@ -1,0 +1,8 @@
+@import url(./blocks/page/page.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/main/main.css);
+/* @import url(./blocks/layout/layout.css); */
+@import url(./blocks/instruction/instruction.css);
+@import url(./blocks/mondrian/mondrian.css);
+@import url(./blocks/button-pp/button-pp.css);
+@import url(./blocks/footer/footer.css);

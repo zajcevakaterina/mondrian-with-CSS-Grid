@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian with CSS Grid</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="page">
+    <header class="header">
+    <h1 class="header__title">Composition en&nbsp;rouge, jaune, bleu et&nbsp;noir</h1>
+    <p class="header__author">Piet Mondrian, 1921</p>
+</header>
+        
+    <div class="instruction instruction_mode_adaptive">
+        <h2 class="instruction__title">Вариант 1: адаптивная&nbsp;верстка.</h2>
+        <p class="instruction__text">При уменьшении разрешения экрана произведение остается неизменным.</p>
+        <p class="instruction__text">С помощью кнопок ниже вы можете наложить на верстку полупрозрачный оригинал картины и, конечно, скрыть его потом обратно.</p>
+    
+    <div class="instruction__buttons">
+        <button class="button-pp button-pp_mode_on button-pp_status_not-clicked">Включить оригинал</button>
+        <button class="button-pp button-pp_mode_off button-pp_status_clicked">Верстка с&nbsp;CSS&nbsp;Grid</button>
+    </div>
+    </div>
+        
+    
+    <div class="mondrian mondrian_mode_adaptive">
+        <img src="image.png" alt="Оригинал картины" class="mondrian__image">
+            <ul class="mondrian__artwork mondrian__artwork_mode_adaptive">
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white">
+                    <div class="mondrian__block mondrian__block_top_left"></div>
+                    <div class="mondrian__block mondrian__block_left_top"></div>
+                </li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white">
+                    <div class="mondrian__block mondrian__block_top_center"></div>
+                </li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_yellow">
+                    <div class="mondrian__block mondrian__block_top_right"></div>
+                </li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white">
+                    <div class="mondrian__block mondrian__block_left_center"></div>
+                </li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_red"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_yellow"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white">
+                    <div class="mondrian__block mondrian__block_left_bottom"></div>
+                </li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_black"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_yellow">
+                    <div class="mondrian__block mondrian__block_bottom_left"></div>
+                </li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_blue"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_red">
+                    <div class="mondrian__block mondrian__block_bottom_right"></div>
+                </li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_black"></li>
+                <li class="mondrian__elem mondrian__elem_state_adaptive mondrian__elem_color_white">
+                    <div class="mondrian__block mondrian__block_bottom_center"></div>
+                </li>
+            </ul>
+        </div>
+        
+
+    <div class="instruction instruction_mode_dynamic">
+        <h2 class="instruction__title">Вариант 2: динамическая перестройка&nbsp;картины.</h2>
+        <p class="instruction__text">При разрешении 890px и ниже картина перестраивается сама.</p>
+        <p class="instruction__text">От Pixel Perfect этот вариант подальше :)</p>
+    </div>
+
+    <div class="mondrian mondrian_mode_dynamic">
+        <ul class="mondrian__artwork mondrian__artwork_mode_dynamic">
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white">
+            </li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white">
+            </li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_yellow">
+            </li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white">
+            </li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_red"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_yellow"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white">
+            </li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_black"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_yellow">
+            </li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_blue"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_red">
+            </li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_black"></li>
+            <li class="mondrian__elem mondrian__elem_state_dynamic mondrian__elem_color_white">
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p class="footer__copyright">&copy; Екатерина Зайцева, 2020г.</p>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>

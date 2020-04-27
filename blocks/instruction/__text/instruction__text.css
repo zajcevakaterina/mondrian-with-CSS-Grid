@@ -1,0 +1,15 @@
+.instruction__text {
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.instruction__text:first-of-type {
+    margin-bottom: 10px
+}
+
+@media screen and (max-width: 1366px) {
+    .instruction__text {
+        font-size: 16px;
+        text-align: left;
+    }
+}

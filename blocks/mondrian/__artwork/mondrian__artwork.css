@@ -1,0 +1,11 @@
+@import url(./_mode/mondrian__artwork_mode_adaptive.css);
+@import url(./_mode/mondrian__artwork_mode_dynamic.css);
+
+.mondrian__artwork {
+    display: grid;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    background: #000;
+}

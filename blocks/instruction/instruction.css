@@ -1,0 +1,16 @@
+@import url(./_mode/instruction_mode_adaptive.css);
+@import url(./_mode/instruction_mode_dynamic.css);
+@import url(./__title/instruction__title.css);
+@import url(./__text/instruction__text.css);
+@import url(./__buttons/instruction__buttons.css);
+
+.instruction {
+    justify-self: left;
+}
+
+@media screen and (max-width: 1366px) {
+    .instruction {
+        text-align: center;
+        justify-self: center;
+    }
+}

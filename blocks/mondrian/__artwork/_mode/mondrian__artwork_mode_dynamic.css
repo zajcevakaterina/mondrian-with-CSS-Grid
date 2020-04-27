@@ -1,0 +1,10 @@
+.mondrian__artwork_mode_dynamic {
+
+    /* grid-template-columns: 88px 102px 106px 210px 126px 136px 34px; */
+    grid-template-columns: repeat(auto-fit, 34px);
+    /* grid-template-rows: 94px 214px 212px 102px 96px 52px 28px; */
+    grid-auto-rows: 28px;
+    grid-auto-flow: dense;
+    max-width: 850px;
+    grid-area: mondrian-dyn;
+}

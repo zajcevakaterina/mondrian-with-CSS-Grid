@@ -1,0 +1,19 @@
+@import url(./_mode/mondrian_mode_dynamic.css);
+@import url(./_mode/mondrian_mode_adaptive.css);
+@import url(./__artwork/mondrian__artwork.css);
+@import url(./__elem/mondrian__elem.css);
+@import url(./__image/mondrian__image.css);
+@import url(./__block/mondrian__block.css);
+
+.mondrian {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    justify-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .mondrian {
+        padding: 0;
+    }
+}

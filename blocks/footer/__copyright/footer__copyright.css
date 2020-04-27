@@ -1,0 +1,9 @@
+.footer__copyright {
+   font-weight: 400;
+}
+
+@media screen and (max-width: 1366px) {
+    .footer__copyright {
+        text-align: center;
+    }
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;700;900&display=swap');
+
+.page {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+    display: grid;
+    grid-template-columns: fit-content(380px) 1fr;
+    grid-template-areas: 
+    'header header'
+    'instruction mondrian'
+    'instruction-dy mondrian-dy'
+    'footer footer';
+    column-gap: 20px; 
+    row-gap: 100px;
+    max-width: 1310px;
+    }
+
+    @media screen and (max-width: 1366px) {
+        .page {
+            grid-template-areas: 
+            'header'
+            'instruction'
+            'mondrian'
+            'instruction-dy'
+            'mondrian-dy'
+            'footer';
+            grid-template-columns: 100%;
+            grid-template-rows: fit-content(1000px);
+            padding: 0 20px;
+            row-gap: 50px;
+        }
+    }
+
+    @media screen and (min-width: 1800px) {
+        .page {
+            column-gap: 80px;
+            max-width: 1600px;
+        }
+    }
+    
+

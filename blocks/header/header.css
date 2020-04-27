@@ -1,0 +1,6 @@
+@import url(./__title/header__title.css);
+@import url(./__author/header__author.css);
+
+.header {
+    grid-area: header;
+}

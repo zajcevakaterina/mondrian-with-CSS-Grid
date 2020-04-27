@@ -1,0 +1,5 @@
+.mondrian_mode_adaptive {
+    grid-area: mondrian;
+    border: 7px solid #000;
+    box-sizing: border-box;
+}
