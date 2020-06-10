@@ -1,7 +1,5 @@
 .mondrian__artwork_mode_adaptive {
-    /* grid-template-columns: 88px 102px 106px 210px 126px 136px 34px; */
     grid-template-columns: 2.7fr 2.92fr 2.9fr 6.3fr 3.7fr 4fr 1fr;
-    /* grid-template-rows: 94px 214px 212px 102px 96px 52px 28px; */
     grid-template-rows: 3.35fr 7.64fr 7.57fr 3.56fr 3.43fr 1.84fr 1fr;
     column-gap: 1.67%;
     row-gap: 1.67%;

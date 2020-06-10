@@ -23,6 +23,8 @@ buttonOff.onclick = function() {
             buttonOff.classList.replace(notClicked, clicked);
             buttonOn.classList.replace(clicked, notClicked);
             buttonOn.textContent = 'Включить оригинал';
-            buttonOff.innerHTML = 'Верстка c' + '&nbsp;' + 'CSS Grid';
+            buttonOff.innerHTML = 'Верстка c' + '&nbsp;' + 'CSS' + '&nbsp;' + 'Grid';
          }
         }
+
+console.log('hello');
